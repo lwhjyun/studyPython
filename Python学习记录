@@ -2,3 +2,20 @@ Python 学习记录
 一、 让字符串扩展到多行的两种方法
 1、在字符串之间用“\n” (back-slash n)
 2、使用三引号""" (triple-quotes),你可以在一组三引号之间放任意多行的文字。
+代码如下：
+
+tabby_cat="\tI'm tabbed in."
+persian_cat="I'm split\non a line."
+backslash_cat="I'm \\ a \\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
